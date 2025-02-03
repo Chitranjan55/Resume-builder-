@@ -16,7 +16,7 @@ function dashboard() {
     }
   }, [user]);
 
-  // used to get users resume list //
+  // used to get users resume list ktjhfuytjydydyrcty//
 
   const GetResumesList=()=>{
     GlobalApi.GetUserResumes(user?.primaryEmailAddress?.emailAddress)
